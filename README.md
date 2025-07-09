@@ -12,4 +12,9 @@ This repository contains the worker agent used with the Hashmancer-Server projec
 - `simple_worker.py` – spawn mask-only workers for GPUs with four or fewer PCIe lanes
 - `advanced_worker.py` – spawn workers for GPUs with x8/x16 links for dictionary and hybrid tasks
 
+## Requirements
+
+See [REQUIREMENTS.md](REQUIREMENTS.md) for a list of required packages. The
+`setup_agent.py` script will attempt to install them automatically.
+
 The scripts rely on environment variables for server URL, API keys, and Redis connection details, making deployment flexible across various systems.
