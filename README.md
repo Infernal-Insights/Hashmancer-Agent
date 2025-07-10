@@ -1,4 +1,4 @@
-# Hashmancer-Agent
+# Hashmancer-Worker
 
 This repository contains the worker agent used with the Hashmancer-Server project. It registers GPUs, fetches tasks, runs hashcat, reports results, and sends health updates.
 
